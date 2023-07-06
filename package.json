@@ -1,0 +1,25 @@
+{
+  "name": "skilmatrix-pipeline",
+  "version": "1.0.0",
+  "description": "A Tool that download files from a site then renames files accourding to a column in another exceltable and then uploads them to a particular site",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadTahaGit/skilMatrix-pipeline.git"
+  },
+  "author": "Jad Taha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadTahaGit/skilMatrix-pipeline/issues"
+  },
+  "homepage": "https://github.com/jadTahaGit/skilMatrix-pipeline#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "glob": "^10.3.1",
+    "path": "^0.12.7",
+    "xlsx": "^0.18.5"
+  }
+}
